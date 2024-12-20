@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eux
+set -eu
 #
 # BASE_DIR needs to be defined in the enviroment, pointing
 # to a persistent directory
