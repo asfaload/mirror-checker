@@ -117,6 +117,9 @@ EOF
   mv "$INDEX.new" "$INDEX"
 }
 
+# If althttpd is available, run it to listen on port 8080
+[[ -x /usr/bin/althttpd ]] && /usr/bin/althttpd -root /data/output -port 8080 &
+
 ################################################################################
 # Code running
 ################################################################################
