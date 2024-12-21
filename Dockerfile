@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add git bash althttpd
+RUN apk add git bash althttpd curl
 
 COPY script.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
