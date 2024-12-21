@@ -93,7 +93,7 @@ generate_index() {
     <title>Asfaload checksums repo check</title>
   </head>
   <body>
-    <main class="container"><html>
+    <main class="container">
 <h1>Asfaload mirror integrity check</h1>
 <p>This is an instance of a server keeping an eye on Asfaload's <a href="https://github.com/asfaload/checksums">checksums mirror</a>.
 It pulls from the git repository, accepting only fast-forward pulls, which allows to detect if a previous commit was altered on the mirror.
